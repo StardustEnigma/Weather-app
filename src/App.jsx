@@ -39,13 +39,13 @@ function App() {
 
         {submitted ? (
           <div className="weather">
-            <p>Your location is {location}</p>
+            <p className='Place'>{location}</p>
             {weatherData ? (
               <>
-                <p>Description: {weatherData.description}</p>
-                <p>Temperature: {weatherData.temperature} °C</p>
-                <p>Humidity: {weatherData.humidity} %</p>
-                <p>Cloudiness: {weatherData.cloudiness} %</p>
+                <p className='object'>Description: {weatherData.description}</p>
+                <p className='object'>Temperature: {weatherData.temperature} °C</p>
+                <p className='object'>Humidity: {weatherData.humidity} %</p>
+                <p className='object'>Cloudiness: {weatherData.cloudiness} %</p>
               </>
             ) : (
               <p>Loading weather data...</p>
