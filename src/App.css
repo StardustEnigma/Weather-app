@@ -54,6 +54,9 @@ button{
 .Place{
   font-weight: 700;
 }
-#last{
-  margin-bottom: 1rem;
+.last{
+  font-size: 1.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #242038;
+  margin-bottom: 1.4rem;
 }

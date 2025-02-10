@@ -45,7 +45,7 @@ function App() {
                 <p className='object'>Description: {weatherData.description}</p>
                 <p className='object'>Temperature: {weatherData.temperature} °C</p>
                 <p className='object'>Humidity: {weatherData.humidity} %</p>
-                <p className='object'>Cloudiness: {weatherData.cloudiness} %</p>
+                <p className='last'>Cloudiness: {weatherData.cloudiness} %</p>
               </>
             ) : (
               <p>Loading weather data...</p>
